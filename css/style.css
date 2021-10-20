@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/bg-img.jpg) no-repeat center center;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+}
+
+.logo h1{
+    line-height: 98px;
+    padding-left: 50px;
+    font-family: sans-serif;
+}
+
+.menu{
+    width: 40%;
+    height: 100px;
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul li {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+section{
+    display: flex;
+}
+
+.bg-img{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+}
+
+.bg-img img{
+    width: 70%;
+    height: 500px;
+    margin: 0 15%;
+}
+
+.bg-tagline{
+    width: 55%;
+    height: 300px;
+    color: whitesmoke;
+    text-align: left;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 110px;
+    padding-left: 10%;
+}
+
+.bg-tagline h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bg-tagline p{
+    font-size: 1.1rem;
+    padding: 60px 0;
+}
+
+.bg-tagline button{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #FE0190, #5D3C8F);
+    border-radius: 4px;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.bg-tagline button:hover{
+    background: linear-gradient(57deg, #5D3C8F, #FE0190);
+    transition: 0.5s;
+}
