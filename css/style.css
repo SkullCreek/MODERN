@@ -110,3 +110,105 @@ section{
     background: linear-gradient(57deg, #5D3C8F, #FE0190);
     transition: 0.5s;
 }
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5% 8%;
+    border: 5px Solid #FE0190;
+    position: relative;
+    border-radius: 70% 30%;
+}
+.sec-img{
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+}
+.sec-img img{
+    width: 100%;
+}
+.sec-text{
+    width: 50%;
+    padding: 5% 10%;
+}
+.sec-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 4rem;
+    margin-bottom: 3px;
+}
+.sec-text p{
+    font-family: sans-serif;
+    font-weight: 1.1rem;
+    font-weight: 700;
+    color: rgb(160, 160, 160);
+}
+
+article{
+    padding: 10% 10%;
+    line-height: 30px;
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+.service-box{
+    border: 1px solid #eee;
+    flex-basis: 32%;
+    padding: 10px;
+    margin-bottom: 15px;
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px grey;
+    background-color: white;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.service-box h3{
+    margin: 5px 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.service-box p{
+    margin: 0 0 10px;
+    font-family: sans-serif;
+}
+
+.service-box img{
+    width: 100%; 
+}
+
+.call-to-action{
+    align-items: flex-start;
+    margin-top: auto;
+    display: inline-block;
+}
+
+.call-to-action a{
+    text-decoration: none;
+    background: #5D3C8F;
+    border: 2px solid transparent;
+    color: #fff;
+    padding: 8px 13px;
+    display: inline-block;
+}
+
+.call-to-action a:hover{
+    color: #5D3C8F;
+    background: transparent;
+    border: 2px solid #5D3C8F;
+}
